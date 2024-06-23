@@ -99,7 +99,7 @@ nav ul li a:hover{
         position: absolute;
         right: 0;
         flex-direction: column;
-        height: 100vh;
+        height: 50vh;
         align-items: center;
         justify-content: space-evenly;
         background-color: rgb(12, 163, 163);
