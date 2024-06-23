@@ -160,9 +160,11 @@ div.completed-information{
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     display: flex;
     justify-content: space-around;
+    position: relative;
 }
 
 div.profile-edukasi{
+    margin-top: 60px;
     padding: 12px;
     height: 100%;
     width: 220px;
@@ -172,6 +174,14 @@ div.knowledge-language{
     padding: 12px;
     height: 100%;
     width: 220px;
+}
+
+h1{
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #747171;
+    position: absolute;
 }
 
 h3{
@@ -193,7 +203,7 @@ p{
 div.contact{
     z-index: 5;
     margin-left: -3px;
-    margin-top: 164px;
+    margin-top: 86px;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -206,11 +216,47 @@ div.telepon{
     padding-right: 10px;
     border-radius: 5px;
     margin-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 i{
     margin: 8px;
     font-size: 20px;
 }
+
+
+div.knowledge-language{
+    margin-top: 60px;
+}
+
+div.bullet span{
+    position: absolute;
+    display: inline-block;
+}
+
+div.bullet span:nth-child(1){
+    margin-left: -22.1px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #747171;
+}
+div.bullet span:nth-child(2){
+    margin-top: 56px;
+    margin-left: -22.1px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #747171;
+}
+div.bullet span:nth-child(3){
+    margin-top: 9.px;
+    margin-left: -16px;
+    height: 100px;
+    width: 2px;
+    background-color: #747171;
+}
+
     </style>
 </head>
 <body>
@@ -228,52 +274,52 @@ i{
             </div>
         </div>
         <div class="completed-information cf">
+            <h1>CURICULUM VITAE</h1>
             <div class="profile-edukasi">
-                <div class="profile">
+                <div class="profile" style="margin-bottom: 14px;">
                     <h3>PROFILE</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus doloremque itaque nihil ut esse, incidunt harum obcaecati ipsam minus voluptatibus quam commodi explicabo </p>
                 </div>
                 <div class="edukasi">
                     <h3>EDUKASI</h3>
-                    <p class="universitas">Institut Teknologi Insan Cendekia Mandiri</p>
+                    <h4 class="universitas">Institut Teknologi Insan Cendekia Mandiri</h4>
                     <p class="strata">S1 Informatika (2022-2026)</p>
                 </div>
                 <div class="contact">
                     <div class="telepon">
                         <div class="logo"><i class="bi bi-telephone"></i></div>
                         <div class="keterangan">
-                            <h3>Telepon</h3>
+                            <h4>Telepon</h4>
                             <p>+62 852 1506 5994</p>
                         </div>
                     </div>
                     <div class="telepon">
                         <div class="logo"><i class="bi bi-envelope"></i></div>
                         <div class="keterangan">
-                            <h3>Email</h3>
+                            <h4>Email</h4>
                             <p>chrandika3@gmail.com</p>
                         </div>
                     </div>
                     <div class="telepon">
                         <div class="logo"><i class="bi bi-github"></i></div>
                         <div class="keterangan">
-                            <h3>Github</h3>
+                            <h4>Github</h4>
                             <p>andikaarbillah</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="knowledge-language">
-                <div class="knowledge">
+            <div class="knowledge-language" style="margin-left: 20px;">
+                <div class="knowledge" style="margin-bottom: 14px;">
                     <h3>Pengalaman</h3>
                     <div class="componen">
                         <div class="bullet">
                             <span></span>
                             <span></span>
                             <span></span>
-                            <span></span>
                         </div>
                         <div class="keterangan">
-                            <div class="hal">
+                            <div class="hal" style="margin-bottom: 8px;">
                                 <h4>Enigma Camp</h4>
                                 <p>Pelatihan Golang</p>
                                 <p>(6 Juni - 28 September) 2023</p>
